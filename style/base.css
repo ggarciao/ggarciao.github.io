@@ -1,0 +1,122 @@
+body {
+	background-color: #191919;
+}
+
+@font-face {
+    font-family: ultra-condensed-sans-serif;
+    src: url("../font/ultracondensedsansserif.eot");
+    src: url("../font/ultracondensedsansserif.eot#iefix") format("embedded-opentype"),
+	url("../font/ultracondensedsansserif.woff") format("woff"),
+	url("../font/ultracondensedsansserif.ttf") format("truetype"),
+	url("../font/ultracondensedsansserif.svg") format("svg");
+}
+
+@font-face {
+	font-family: "ggarciao-com-icons";
+	src: url("../icon/icons.eot");
+	src: url("../icon/icons.eot#iefix") format("embedded-opentype"),
+	url("../icon/icons.woff") format("woff"),
+	url("../icon/icons.ttf") format("truetype"),
+	url("../icon/icons.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icons-"]:before, [class*=" icons-"]:before,
+[class^="icons-"]:after, [class*=" icons-"]:after {   
+	font-family: ggarciao-com-icons;
+}
+
+.icons-bitbucket:before {
+	content: "\e000";
+
+}
+
+.icons-mailto:before {
+	content: "\e001";
+}
+
+.icons-github:before {
+	content: "\e002";
+}
+
+.icons-cloud:before {
+	content: "\e003";
+}
+
+.icons-linkedin:before {
+	content: "\e005";
+}
+
+.icons-stackoverflow:before {
+	content: "\e004";
+}
+
+.centered-no-size-fix {
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+}
+
+.centered-size-fix-for-big-row  {
+    width: 100%;
+    height: 250px;
+    margin-left: -50%;
+    margin-top: -125px;
+}
+
+.centered-size-fix-for-medium-row  {
+    width: 100%;
+    height: 160px;
+    margin-left: -50%;
+    margin-top: -80px;
+}
+
+.centered-size-fix-for-small-row  {
+    width: 100%;
+    height: 80px;
+    margin-left: -50%;
+    margin-top: -40px;
+}
+
+.main-row {
+	background-color: #ffffff;
+}
+
+.main-icon {
+	font-size: 80px;
+	margin-top: 1%;
+}
+
+.main-menu {
+	font-size: 32px;
+	margin-top: 1%;
+}
+
+.main-menuitem {
+	padding-left: 15px;
+	cursor: hand;
+}
+
+.main-menuitem-small {
+	padding-left: 15px;
+	font-size: 25px;
+	cursor: hand;
+}
+
+.title-big {
+    font-family: ultra-condensed-sans-serif;
+    font-weight:bold;
+    font-size: 70px;
+}
+
+.title-medium {
+    font-weight:bold;
+    font-size: 35px;
+}
+
+.title-normal {
+    font-weight:bold;
+    font-size: 18px;
+}
