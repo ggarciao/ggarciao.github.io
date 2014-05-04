@@ -96,13 +96,13 @@ body {
 
 .main-menuitem {
 	padding-left: 15px;
-	cursor: hand;
+	cursor: pointer;
 }
 
 .main-menuitem-small {
 	padding-left: 15px;
 	font-size: 25px;
-	cursor: hand;
+	cursor: pointer;
 }
 
 .title-big {
