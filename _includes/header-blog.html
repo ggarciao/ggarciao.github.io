@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="/css/base.css" />
+    <script type="text/javascript" src="/js/Utils.js"></script>
+    <title>ggarciao.COM</title>
+  </head>
+  <body class="blog">
+      <div class="bar top">
+        <div class="blog-navigator">
+            {% if page.previous %}
+              <a class="previous" href="{{page.previous.permalink}}">Prev</a>
+            {% endif %}
+            <span class="title-medium center">ggarciao.COM/blog</span>
+            {% if page.next %}
+              <a class="next" href="{{page.next.permalink}}">Next</a>
+            {% endif %}
+        </div>
+      </div>
+      

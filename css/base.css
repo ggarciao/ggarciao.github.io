@@ -1,5 +1,12 @@
 body {
 	background-color: #191919;
+	overflow: hidden;
+}
+
+body.blog {
+	background-color: #ffffff;
+	overflow: hidden;
+	margin-left: 0px;
 }
 
 @font-face {
@@ -29,27 +36,24 @@ body {
 
 .icons-bitbucket:before {
 	content: "\e000";
-
 }
-
-.icons-mailto:before {
+.icons-jekyll:before {
 	content: "\e001";
 }
-
-.icons-github:before {
+.icons-mailto:before {
 	content: "\e002";
 }
-
-.icons-cloud:before {
+.icons-github:before {
 	content: "\e003";
 }
-
-.icons-linkedin:before {
+.icons-cloud:before {
+	content: "\e004";
+}
+.icons-stackoverflow:before {
 	content: "\e005";
 }
-
-.icons-stackoverflow:before {
-	content: "\e004";
+.icons-linkedin:before {
+	content: "\e006";
 }
 
 .centered-no-size-fix {
@@ -61,23 +65,16 @@ body {
 
 .centered-size-fix-for-big-row  {
     width: 100%;
-    height: 250px;
+    height: 26vh;
     margin-left: -50%;
-    margin-top: -125px;
-}
-
-.centered-size-fix-for-medium-row  {
-    width: 100%;
-    height: 160px;
-    margin-left: -50%;
-    margin-top: -80px;
+    margin-top: -13vh;
 }
 
 .centered-size-fix-for-small-row  {
     width: 100%;
-    height: 80px;
+    height: 13vh;
     margin-left: -50%;
-    margin-top: -40px;
+    margin-top: -6.5vh;
 }
 
 .main-row {
@@ -85,38 +82,102 @@ body {
 }
 
 .main-icon {
-	font-size: 80px;
-	margin-top: 1%;
+	font-size: 8vh;
+	margin-top: 1.5vh;
 }
 
 .main-menu {
-	font-size: 32px;
-	margin-top: 1%;
+	font-size: 3.5vh;
+	margin-top: 1.5vh;
 }
 
 .main-menuitem {
-	padding-left: 15px;
+	padding-right: 3vw;
 	cursor: pointer;
 }
 
 .main-menuitem-small {
-	padding-left: 15px;
-	font-size: 25px;
+	padding-right: 3vw;
+	font-size: 3.5vh;
 	cursor: pointer;
 }
 
 .title-big {
     font-family: ultra-condensed-sans-serif;
     font-weight:bold;
-    font-size: 70px;
+    font-size: 7vh;
 }
 
 .title-medium {
+	font-family: ultra-condensed-sans-serif;
     font-weight:bold;
-    font-size: 35px;
+    font-size: 6vh;
 }
 
 .title-normal {
+	font-family: ultra-condensed-sans-serif;
     font-weight:bold;
+    font-size: 3vh;
+}
+
+.text {
+	font-family: sans-serif;
     font-size: 18px;
+}
+
+.bar {
+    width: 100%;
+    height: 10vh;
+    background-color: #191919;
+    color: white;
+    padding-left: 5px;
+}
+
+.content {
+	position: relative;
+	top: 10%;
+	height: 80vh;
+	overflow: auto;
+	padding-left: 5px;
+}
+
+.top {
+	position: fixed;
+    top: 0px;
+}
+
+.bottom {
+	position: fixed;
+    bottom: 0px;
+}
+
+.blog-navigator {
+	padding-top: 1vh;
+}
+
+.blog-navigator a {
+	font-family: ultra-condensed-sans-serif;
+	text-decoration: none;
+	color: white;
+    font-size: 3vh;
+}
+
+.previous { 
+	position: fixed;
+    left: 10px;
+    top: 20px;
+}
+
+.center { 
+	position: fixed;
+	width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: -1;
+}
+
+.next {
+	position: fixed;
+    right: 10px;
+    top: 20px;
 }

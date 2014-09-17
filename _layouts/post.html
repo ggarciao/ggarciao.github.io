@@ -1,0 +1,17 @@
+{% include header-blog.html %}
+
+<div class="content text">
+  <div class="title-medium">
+    {{page.title}}
+  </div>
+  <div>
+    {{ page.date | date: "%Y-%m-%d" }}
+  </div>
+
+  <br/>
+
+  {{ content }}
+
+</div>
+
+{% include footer-blog.html %}
