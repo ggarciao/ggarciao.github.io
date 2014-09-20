@@ -135,20 +135,20 @@ body.blog {
 
 .content {
 	position: relative;
-	top: 10%;
-	height: 80vh;
+	top: 10vh;
+	height: 78vh;
 	overflow: auto;
 	padding-left: 5px;
 }
 
 .top {
 	position: fixed;
-    top: 0px;
+    top: 0vh;
 }
 
 .bottom {
 	position: fixed;
-    bottom: 0px;
+    bottom: 0vh;
 }
 
 .blog-navigator {
