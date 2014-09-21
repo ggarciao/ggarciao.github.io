@@ -65,9 +65,9 @@ body.blog {
 
 .centered-size-fix-for-big-row  {
     width: 100%;
-    height: 26vh;
-    margin-left: -50%;
-    margin-top: -13vh;
+    height: 42vh;
+    margin-left: -50vw;
+    margin-top: -21vh;
 }
 
 .centered-size-fix-for-small-row  {
@@ -82,13 +82,17 @@ body.blog {
 }
 
 .main-icon {
-	font-size: 8vh;
+	height: 15vh;
+	font-size: 13vh;
 	margin-top: 1.5vh;
+	vertical-align: center;
 }
 
 .main-menu {
-	font-size: 3.5vh;
+	height: 12vh;
+	font-size: 6vh;
 	margin-top: 1.5vh;
+	vertical-align: center;
 }
 
 .main-menuitem {
@@ -103,9 +107,11 @@ body.blog {
 }
 
 .title-big {
+	height: 15vh;
     font-family: ultra-condensed-sans-serif;
     font-weight:bold;
-    font-size: 7vh;
+    font-size: 13vh;
+    vertical-align: center;
 }
 
 .title-medium {
