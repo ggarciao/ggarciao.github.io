@@ -6,7 +6,7 @@ layout : homepage
 <div class="main-icon icons-cloud"></div>
 <div class="title-big">ggarciao.COM</div>
 <div class="main-menu">
-    <span title="Blog" class="main-menuitem icons-jekyll" style="margin-left: 3vw"></span>
+    <span title="Blog" class="main-menuitem icons-jekyll" style="margin-left: 3vw" onClick="location.href='./blog/'"></span>
 
     <span title="GitHub" class="main-menuitem icons-github" onClick="window.open('https://github.com/ggarciao/')" ></span>
   

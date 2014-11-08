@@ -12,11 +12,11 @@
       <div class="bar top">
         <div class="blog-navigator">
             {% if page.previous %}
-              <a class="previous" href="{{page.previous.permalink}}">Prev</a>
+              <a class="previous nav small" href="{{page.previous.permalink}}">Prev</a>
             {% endif %}
-            <span class="title-medium center">ggarciao.COM/blog</span>
+            <span class="title-medium center"><a class="nav big" href="/blog/content/">ggarciao.COM/blog</a></span>
             {% if page.next %}
-              <a class="next" href="{{page.next.permalink}}">Next</a>
+              <a class="next nav small" href="{{page.next.permalink}}">Next</a>
             {% endif %}
         </div>
       </div>

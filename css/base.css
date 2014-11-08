@@ -120,6 +120,12 @@ body.blog {
     font-size: 6vh;
 }
 
+.title-medium a {
+	font-family: ultra-condensed-sans-serif;
+    font-weight:bold;
+    font-size: 6vh;
+}
+
 .title-normal {
 	font-family: ultra-condensed-sans-serif;
     font-weight:bold;
@@ -161,17 +167,25 @@ body.blog {
 	padding-top: 1vh;
 }
 
-.blog-navigator a {
+.blog-navigator .nav {
 	font-family: ultra-condensed-sans-serif;
 	text-decoration: none;
 	color: white;
-    font-size: 3vh;
+}
+
+.bloc-navigator .small {
+	font-size: 3vh;
+}
+
+.bloc-navigator .big {
+	font-size: 6vh;
 }
 
 .previous { 
 	position: fixed;
     left: 10px;
     top: 20px;
+    z-index: 1;
 }
 
 .center { 
@@ -179,11 +193,12 @@ body.blog {
 	width: 100%;
     left: 0;
     text-align: center;
-    z-index: -1;
+    z-index: 0;
 }
 
 .next {
 	position: fixed;
     right: 10px;
     top: 20px;
+    z-index: 1;
 }
