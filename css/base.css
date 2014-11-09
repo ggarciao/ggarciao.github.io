@@ -202,3 +202,39 @@ body.blog {
     top: 20px;
     z-index: 1;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.postrow {
+	padding-top: 10px;
+}
+
+.postrow .date {
+	height: 100%;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.postrow a {
+	height: 50%;
+	position: relative;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.postrow .excerpt {
+	height: 50%;
+	position: relative;
+	font-style: italic;
+	font-size: 16px;
+	color: #A8A8A8;
+}
