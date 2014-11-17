@@ -132,6 +132,12 @@ body.blog {
     font-size: 3vh;
 }
 
+.title {
+	font-family: ultra-condensed-sans-serif;
+    font-weight:bold;
+    font-size: 36px;
+}
+
 .text {
 	font-family: sans-serif;
     font-size: 18px;
@@ -231,7 +237,7 @@ hr {
 	font-weight: bold;
 }
 
-.postrow .excerpt {
+.excerpt {
 	height: 50%;
 	position: relative;
 	font-style: italic;

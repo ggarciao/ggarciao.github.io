@@ -2,7 +2,7 @@
 title: Test2 Test2 Test2 Test2 Test2 Test2
 permalink: /blog/content/test2
 layout: post
-category: Two
+category: Mngt
 excerpt: Another Thing
 ---
 

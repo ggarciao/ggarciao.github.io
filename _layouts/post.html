@@ -1,13 +1,12 @@
 {% include header-blog.html %}
 
 <div class="content text">
-  <div class="title-medium">
+  <div class="title">
     {{page.title}}
   </div>
-  <div>
-    {{ page.date | date: "%Y-%m-%d" }}
-  </div>
 
+  <span> {{ page.date | date: "%Y-%m-%d" }}</span>
+  <span class="excerpt"> {{page.excerpt}} </span>
   <br/>
 
   {{ content }}
